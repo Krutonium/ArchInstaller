@@ -15,5 +15,20 @@ namespace KruArchInstaller
         {
             InitializeComponent();
         }
+
+        private void btnConfAcct_Click(object sender, EventArgs e)
+        {
+            cbAccounts.Checked = true;
+        }
+
+        private void btnConfirmPackages_Click(object sender, EventArgs e)
+        {
+            cbPackages.Checked = true;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
